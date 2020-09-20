@@ -1,0 +1,31 @@
+.ant-layout-header {
+  color: $cinza;
+  background: transparent;
+  padding: 1rem 2.5rem;
+  height: auto;
+  line-height: normal;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  .navbar {
+    padding: 0;
+    .nav-link {
+      color: $cinza;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      &:hover {
+        color: $laranja-1;
+      }
+    }
+  }
+  .logo {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: $cinza;
+    &:hover {
+      color: $laranja-1;
+    }
+  }
+}

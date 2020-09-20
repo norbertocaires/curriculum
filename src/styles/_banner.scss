@@ -1,0 +1,33 @@
+.banner {
+  h1 {
+    color: $laranja-1;
+    margin-top: 1.75rem;
+  }
+  .subtitle {
+    color: $cinza;
+    font-size: 1.25rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .go-content {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    color: $laranja-1;
+    animation: pointing-down infinite 1s linear;
+    @include transform(rotate(90deg));
+    @include transition(all 0.3s ease-in-out);
+  }
+}
+
+@keyframes pointing-down {
+  from {
+    bottom: 50px;
+    opacity: 0.5;
+  }
+  to {
+    bottom: 40px;
+    opacity: 1;
+  }
+}

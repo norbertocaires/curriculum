@@ -1,0 +1,74 @@
+/* IMPORTAÇÕES EXTERNAS */
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker:400");
+@import url("https://use.typekit.net/wks4clg.css");
+
+/* PALETA DE CORES */
+$preto: #1c2026;
+$marrom: #591d07;
+$laranja-1: #f27141;
+$laranja-2: #f28749;
+$laranja-3: #f2a172;
+$cinza: #4a575d;
+$branco: #ececec;
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  background-color: $preto;
+  line-height: 1.65;
+  color: $branco;
+  font-family: "muli", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 100vw;
+  overflow: hidden auto;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+h1,
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: $laranja-1;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+h3 {
+  font-family: "muli", sans-serif;
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-family: "muli", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+small,
+.text_small {
+  font-size: 1rem;
+}
