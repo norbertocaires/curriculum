@@ -26,26 +26,25 @@ class SiteHeader extends Component {
           <div className="collapse navbar-collapse justify-content-md-center" id="navBarNorbs">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">Informações</a>
+                <a className="nav-link" href="#section-information">Informações</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Acadêmico</a>
+                <a className="nav-link" href="#section-graduation">Acadêmico</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Experiências</a>
+                <a className="nav-link" href="#section-experiences">Experiências</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Habilidades</a>
+                <a className="nav-link" href="#section-skill">Habilidades</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contato</a>
+                <a className="nav-link" href="#footer">Contato</a>
               </li>
             </ul>
           </div>
           <a 
             href={information.linkedinUrl} 
             className="btn btn-icon"
-            target="_blank"
           >
             <LinkedinOutlined />
           </a>

@@ -1,4 +1,3 @@
-import React from "react";
 import logoUnB from '../images/logo-unb.svg';
 import ministerioDasCidades from '../images/ministerio_das_cidades.png';
 import scytl from '../images/scytl.png';

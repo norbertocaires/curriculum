@@ -9,7 +9,7 @@ const { Footer } = Layout;
 class SiteFooter extends Component {
   render() {
     return (
-      <Footer>
+      <Footer id="footer">
         <div className="container">
           <h2>Contato</h2>
           <div className="content row no-gutters align-items-center justify-content-center">
