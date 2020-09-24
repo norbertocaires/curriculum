@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
+import information from './Informations';
 
 class SectionGraduation extends Component {
   render() {
@@ -7,6 +8,12 @@ class SectionGraduation extends Component {
       <Layout className="graduation" id="section-graduation">
         <div className="container">
           <h2>Acadêmico</h2>
+          <div className="text-center">
+            <img src={information.logoUniversity} alt={information.university} />
+            <h3>{information.graduation}</h3>
+            <p>{information.university}</p>
+            <p>{information.graduationYear}</p>
+          </div>
         </div>
       </Layout>
     );

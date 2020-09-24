@@ -1,0 +1,19 @@
+.graduation {
+  background-image: url("../images/bg-graduation.svg");
+  background-repeat: no-repeat;
+  background-position: center 70%;
+  background-size: 110%;
+  h2 {
+    margin-bottom: 4rem;
+  }
+  img {
+    max-width: 12.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  h3,
+  p {
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+}
