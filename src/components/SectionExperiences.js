@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Layout, Timeline } from 'antd';
+import { AimOutlined } from '@ant-design/icons';
 import information from './Informations';
 
 class SectionExperiences extends Component {
@@ -10,7 +11,10 @@ class SectionExperiences extends Component {
           <h2>Experiências Profissionais</h2>
           <Timeline mode="alternate">
             {information.experiences.map(item => (
-              <Timeline.Item label={<img src={item.logo} alt={item.company} />}>
+              <Timeline.Item
+                label={<img src={item.logo} alt={item.company} />}
+                dot={<AimOutlined />}
+              >
                 <h5>{item.period}</h5>
                 <h4>{item.job}</h4>
                 <p className="text_small">{item.activities}</p>

@@ -1,0 +1,49 @@
+.ant-timeline-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 6.25rem;
+}
+
+.ant-timeline-item-content {
+  margin: 0 0 0 5rem;
+}
+
+.ant-timeline-item-head {
+  background-color: transparent;
+  font-size: 2rem;
+  color: $laranja-1;
+}
+
+.ant-timeline-item-tail {
+  border-color: $cinza;
+}
+
+.ant-timeline.ant-timeline-label {
+  .ant-timeline-item-label {
+    width: calc(50% - 5rem);
+  }
+  .ant-timeline-item-left {
+    .ant-timeline-item-content {
+      width: calc(50% - 5rem);
+    }
+  }
+  .ant-timeline-item-right {
+    .ant-timeline-item-label {
+      left: calc(50% + 5rem);
+      width: calc(50% - 5rem);
+    }
+    .ant-timeline-item-content {
+      width: calc(50% - 5rem);
+      text-align: left;
+    }
+  }
+}
+
+.experiences {
+  .ant-timeline-item-content {
+    color: $branco;
+  }
+  img {
+    max-width: 13.4rem;
+  }
+}
