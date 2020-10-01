@@ -12,10 +12,13 @@
   background-color: transparent;
   font-size: 2rem;
   color: $laranja-1;
+  transform: translate(-50%, 100%);
 }
 
 .ant-timeline-item-tail {
   border-color: $cinza;
+  height: calc(100% + 60px);
+  top: 0;
 }
 
 .ant-timeline.ant-timeline-label {
