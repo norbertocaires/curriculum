@@ -62,7 +62,20 @@ const Information = {
     "JavaScript",
     "SQL",
     "React",
-    "Python"
+    "Python",
+    "Azure",
+    "HTML",
+    "Scrum",
+    "Linux",
+    "ASP.NET",
+    "MongoDB",
+    "Latex",
+    "AngularJS",
+    "Unit Testing",
+    "Postman",
+    "Docker",
+    "Inglês Técnico",
+    "Git"
   ]
 }
 
