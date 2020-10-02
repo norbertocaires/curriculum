@@ -12,7 +12,8 @@ a {
   @include transition(all 0.6s ease-in-out);
 }
 
-.btn-icon {
+.btn-icon, 
+a.btn-icon:not([href]):not([tabindex]) {
   font-size: 2rem;
   color: $cinza;
   &:hover {

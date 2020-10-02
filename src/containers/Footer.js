@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
 import { VerticalAlignTopOutlined, PrinterOutlined } from '@ant-design/icons';
+import { Link, animateScroll as scroll } from "react-scroll";
 import triangle from '../images/bg_triangulos.svg';
 import information from '../components/Informations';
 
@@ -26,12 +27,13 @@ class SiteFooter extends Component {
           <p className="subfooter">Todos os direitos reservados</p>
         </div>
         <div className="actions">
-          <a
-            href="#section-banner"
-            className="btn btn-icon back-top"
+          <Link 
+            to="section-banner"
+            className="btn btn-icon back-top" 
+            smooth={true}
           >
             <VerticalAlignTopOutlined />
-          </a>
+          </Link>
           <a
             href={information.curriculumUrl}
             className="btn btn-icon"

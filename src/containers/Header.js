@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
 import { LinkedinOutlined } from '@ant-design/icons';
+import { Link, animateScroll as scroll } from "react-scroll";
 import information from '../components/Informations';
 
 const { Header } = Layout;
@@ -11,13 +12,13 @@ class SiteHeader extends Component {
       <Header>
         <nav className="navbar navbar-expand-lg navbar-dark">
           <a className="navbar-brand logo" href="/">Norberto Caires</a>
-          <button 
-            className="navbar-toggler" 
-            type="button" 
-            data-toggle="collapse" 
-            data-target="#navBarNorbs" 
-            aria-controls="navBarNorbs" 
-            aria-expanded="false" 
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navBarNorbs"
+            aria-controls="navBarNorbs"
+            aria-expanded="false"
             aria-label="Alterna navegação"
           >
             <span className="navbar-toggler-icon"></span>
@@ -26,29 +27,60 @@ class SiteHeader extends Component {
           <div className="collapse navbar-collapse justify-content-md-center" id="navBarNorbs">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#section-information">Informações</a>
+                <Link 
+                  className="nav-link" 
+                  to="section-information"
+                  smooth={true}
+                >
+                  Informações
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-graduation">Acadêmico</a>
+                <Link 
+                  className="nav-link" 
+                  to="section-graduation"
+                  smooth={true}
+                >
+                  Acadêmico
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-experiences">Experiências</a>
+                <Link 
+                  className="nav-link" 
+                  to="section-experiences"
+                  smooth={true}
+                  offset={-100}
+                >
+                  Experiências
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#section-skill">Habilidades</a>
+                <Link 
+                  className="nav-link" 
+                  to="section-skill"
+                  smooth={true}
+                >
+                  Habilidades
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#footer">Contato</a>
+                <Link 
+                  className="nav-link" 
+                  to="footer"
+                  smooth={true}
+                >
+                  Contato
+                </Link>
               </li>
             </ul>
           </div>
-          <a 
-            href={information.linkedinUrl} 
+          <a
+            href={information.linkedinUrl}
             className="btn btn-icon"
           >
             <LinkedinOutlined />
           </a>
-        </nav>    
+        </nav>
       </Header>
     );
   }
