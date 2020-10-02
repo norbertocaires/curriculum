@@ -8,7 +8,7 @@ class SectionSkill extends Component {
       <Layout className="skill" id="section-skill">
         <div className="container">
           <h2>Habilidades e conhecimento</h2>
-          <ul className="list-unstyled">
+          <ul className="list-unstyled" data-aos="zoom-out">
             {information.skill.map(item => (
               <li>{item}</li>
             ))}

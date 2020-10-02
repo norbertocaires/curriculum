@@ -14,7 +14,7 @@
     position: absolute;
     left: 50%;
     right: 50%;
-    color: $laranja-1;
+    color: $laranja-1 !important;
     animation: pointing-down infinite 1s linear;
     @include transform(rotate(90deg));
     @include transition(all 0.3s ease-in-out);
