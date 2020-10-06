@@ -2,12 +2,14 @@ import logoUnB from '../images/logo-unb.svg';
 import ministerioDasCidades from '../images/ministerio_das_cidades.png';
 import scytl from '../images/scytl.png';
 import snews from '../images/snews.png';
+import emgea from '../images/emgea.png';
+import pdf from '../pdfs/Norberto.pdf';
 
 const Information = {
   name: "Norbeto Caires",
   job: "Desenvolvedor",
   linkedinUrl: "https://www.linkedin.com/in/norbertocaires",
-  curriculumUrl: "#",
+  curriculumUrl: pdf,
   maritalStatus: "Solteiro",
   nationality: "Brasileiro",
   birth: "10/1991",
@@ -50,9 +52,16 @@ const Information = {
     {
       job: "Analista de Desenvolvimento",
       activities: "Desenvolvimento de plataformas web para eleições e assembleias online para conselhos, organizações e condomínios; Utilização de tecnologias C#, TypeScript, JavaScript, AngularJS, ASP.NET Web API, Entity Framework, Microsoft Azure, Microsoft SQL Server database, entre outras; Aplicação de testes unitários com NUnit; Metodologia ágeis: Scrum, Daily Meetings e planejamentos de Sprints.",
-      period: "JAN/2020 - Atual",
+      period: "JAN/2020 - AGO/2020",
       company: "Scytl",
       logo: scytl
+    },
+    {
+      job: "Assessor",
+      activities: "",
+      period: "SET/2020 - Atual",
+      company: "EMGEA",
+      logo: emgea
     }
   ],
   skill: [
