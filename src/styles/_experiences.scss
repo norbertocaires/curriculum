@@ -49,4 +49,49 @@
   img {
     max-width: 13.4rem;
   }
+
+  // Inferior a tablet
+  @media (max-width: 767.98px) {
+    .ant-timeline.ant-timeline-alternate .ant-timeline-item-tail,
+    .ant-timeline.ant-timeline-right .ant-timeline-item-tail,
+    .ant-timeline.ant-timeline-label .ant-timeline-item-tail,
+    .ant-timeline.ant-timeline-alternate .ant-timeline-item-head,
+    .ant-timeline.ant-timeline-right .ant-timeline-item-head,
+    .ant-timeline.ant-timeline-label .ant-timeline-item-head,
+    .ant-timeline.ant-timeline-alternate .ant-timeline-item-head-custom,
+    .ant-timeline.ant-timeline-right .ant-timeline-item-head-custom,
+    .ant-timeline.ant-timeline-label .ant-timeline-item-head-custom {
+      left: 15px;
+    }
+    .ant-timeline.ant-timeline-label
+      .ant-timeline-item-left
+      .ant-timeline-item-content,
+    .ant-timeline.ant-timeline-label .ant-timeline-item-label {
+      width: auto;
+    }
+    .ant-timeline.ant-timeline-alternate
+      .ant-timeline-item-left
+      .ant-timeline-item-content,
+    .ant-timeline.ant-timeline-right
+      .ant-timeline-item-left
+      .ant-timeline-item-content,
+    .ant-timeline.ant-timeline-label
+      .ant-timeline-item-left
+      .ant-timeline-item-content {
+      left: 0;
+    }
+    .ant-timeline-item {
+      display: block;
+    }
+    .ant-timeline.ant-timeline-label .ant-timeline-item-label {
+      position: relative;
+      top: 0;
+      text-align: left;
+      margin: 0 0 24px 40px;
+    }
+    .ant-timeline-item-content {
+      margin: 0 0 0 40px;
+      top: 0;
+    }
+  }
 }
