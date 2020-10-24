@@ -6,4 +6,10 @@
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
+
+  // Inferior a tablet
+  @media (max-width: 767.98px) {
+    width: 100vw;
+    overflow: hidden;
+  }
 }

@@ -40,6 +40,12 @@
     .navbar {
       -ms-flex-pack: normal;
       justify-content: normal;
+      .nav-link {
+        text-align: center;
+        background-color: $preto;
+        font-size: 2rem;
+        padding: 6.8vh 0;
+      }
     }
     .logo {
       margin-right: auto;
@@ -48,6 +54,9 @@
       order: 1;
       border: none;
       border-radius: 0;
+    }
+    .navbar-collapse {
+      order: 2;
     }
   }
 }

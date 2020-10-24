@@ -13,7 +13,7 @@ a {
   @include transition(all 0.6s ease-in-out);
 }
 
-.btn-icon, 
+.btn-icon,
 a.btn-icon:not([href]):not([tabindex]) {
   font-size: 2rem;
   color: $cinza;
@@ -24,10 +24,20 @@ a.btn-icon:not([href]):not([tabindex]) {
 
 .actions {
   position: fixed;
-  bottom: 2.5rem;
-  right: 2.5rem;
   max-width: 3.75rem;
   .btn:not(:last-child) {
     margin-bottom: 2rem;
+  }
+
+  // Tablet e superior
+  @media (min-width: 768px) {
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+
+  // Inferior a tablet
+  @media (max-width: 767.98px) {
+    bottom: 1rem;
+    right: 1rem;
   }
 }
