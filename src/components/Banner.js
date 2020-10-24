@@ -12,7 +12,7 @@ class SectionBanner extends Component {
         <div className="container">
           <div className="row no-gutters justify-content-center">
             <div className="col-md-2">
-              <img src={programador} className="w-100" alt="Programador" />
+              <img src={programador} className="avatar" alt="Programador" />
             </div>
             <div className="col-md-6 offset-md-1">
               <h1>{information.name}</h1>

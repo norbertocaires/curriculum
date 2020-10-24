@@ -1,11 +1,9 @@
 .ant-layout-header {
   color: $cinza;
   background: transparent;
-  padding: 1rem 2.5rem;
   height: auto;
   line-height: normal;
   position: fixed;
-  width: 100%;
   z-index: 1000;
   .navbar {
     padding: 0;
@@ -26,6 +24,30 @@
     color: $cinza;
     &:hover {
       color: $laranja-1;
+    }
+  }
+
+  // Tablet e superior
+  @media (min-width: 768px) {
+    padding: 1rem 2.5rem;
+    width: 100%;
+  }
+
+  // Inferior a tablet
+  @media (max-width: 767.98px) {
+    padding: 1rem;
+    width: 100vw;
+    .navbar {
+      -ms-flex-pack: normal;
+      justify-content: normal;
+    }
+    .logo {
+      margin-right: auto;
+    }
+    .navbar-toggler {
+      order: 1;
+      border: none;
+      border-radius: 0;
     }
   }
 }

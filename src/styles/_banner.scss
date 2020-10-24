@@ -19,6 +19,21 @@
     @include transform(rotate(90deg));
     @include transition(all 0.3s ease-in-out);
   }
+
+  // Tablet e superior
+  @media (min-width: 768px) {
+    .avatar {
+      width: 100%;
+    }
+  }
+
+  // Inferior a tablet
+  @media (max-width: 767.98px) {
+    text-align: center;
+    h1 {
+      font-size: 4rem;
+    }
+  }
 }
 
 @keyframes pointing-down {
