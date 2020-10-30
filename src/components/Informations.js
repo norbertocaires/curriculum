@@ -6,7 +6,7 @@ import emgea from '../images/emgea.png';
 import pdf from '../pdfs/Norberto.pdf';
 
 const Information = {
-  name: "Norberto Caires",
+  name: "Norbeto Caires",
   job: "Desenvolvedor",
   linkedinUrl: "https://www.linkedin.com/in/norbertocaires",
   curriculumUrl: pdf,
