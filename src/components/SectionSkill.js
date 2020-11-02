@@ -9,8 +9,8 @@ class SectionSkill extends Component {
         <div className="container">
           <h2>Habilidades e conhecimento</h2>
           <ul className="list-unstyled" data-aos="zoom-out">
-            {information.skill.map(item => (
-              <li>{item}</li>
+            {information.skill.map((item, k) => (
+              <li key={k}>{item}</li>
             ))}
           </ul>
         </div>

@@ -12,6 +12,7 @@ class SectionExperiences extends Component {
           <Timeline mode="alternate">
             {information.experiences.map((item, k) => (
               <Timeline.Item
+                key={k}
                 label={
                   <img
                     src={item.logo}
