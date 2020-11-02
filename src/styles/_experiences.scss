@@ -48,6 +48,11 @@
   }
   img {
     max-width: 13.4rem;
+    background: white;
+    filter: saturate(0);
+    height: 160px;
+    object-fit: contain;
+    padding: 0 1rem;
   }
 
   // Inferior a tablet

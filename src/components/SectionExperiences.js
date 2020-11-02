@@ -22,7 +22,7 @@ class SectionExperiences extends Component {
                 dot={<AimOutlined />}
               >
                 <div data-aos={k % 2 ? "fade-right" : "fade-left"}>
-                  <h5>{item.period} - {k}</h5>
+                  <h5>{item.period}</h5>
                   <h4>{item.job}</h4>
                   <p className="text_small">{item.activities}</p>
                 </div>
