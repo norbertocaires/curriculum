@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
-import { LinkedinOutlined } from '@ant-design/icons';
+import { LinkedinOutlined, MenuOutlined } from '@ant-design/icons';
 import { Link } from "react-scroll";
 import information from '../components/Informations';
 
@@ -21,14 +21,14 @@ class SiteHeader extends Component {
             aria-expanded="false"
             aria-label="Alterna navegação"
           >
-            <span className="navbar-toggler-icon"></span>
+            <MenuOutlined />
           </button>
 
           <div className="collapse navbar-collapse justify-content-md-center" id="navBarNorbs">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link 
-                  className="nav-link" 
+                <Link
+                  className="nav-link"
                   to="section-information"
                   smooth={true}
                 >
@@ -36,8 +36,8 @@ class SiteHeader extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link 
-                  className="nav-link" 
+                <Link
+                  className="nav-link"
                   to="section-graduation"
                   smooth={true}
                 >
@@ -45,8 +45,8 @@ class SiteHeader extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link 
-                  className="nav-link" 
+                <Link
+                  className="nav-link"
                   to="section-experiences"
                   smooth={true}
                   offset={-100}
@@ -55,8 +55,8 @@ class SiteHeader extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link 
-                  className="nav-link" 
+                <Link
+                  className="nav-link"
                   to="section-skill"
                   smooth={true}
                 >
@@ -64,8 +64,8 @@ class SiteHeader extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link 
-                  className="nav-link" 
+                <Link
+                  className="nav-link"
                   to="footer"
                   smooth={true}
                 >

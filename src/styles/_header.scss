@@ -26,6 +26,10 @@
       color: $laranja-1;
     }
   }
+  .navbar-dark .navbar-toggler {
+    color: $cinza;
+    font-size: 1.5rem;
+  }
 
   // Tablet e superior
   @media (min-width: 768px) {
