@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
 import { VerticalAlignTopOutlined, PrinterOutlined } from '@ant-design/icons';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import triangle from '../images/bg_triangulos.svg';
 import information from '../components/Informations';
 

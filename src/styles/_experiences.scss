@@ -69,11 +69,17 @@
       left: 15px;
     }
     .ant-timeline.ant-timeline-label
+      .ant-timeline-item-right
+      .ant-timeline-item-content,
+    .ant-timeline.ant-timeline-label
       .ant-timeline-item-left
       .ant-timeline-item-content,
     .ant-timeline.ant-timeline-label .ant-timeline-item-label {
       width: auto;
     }
+    .ant-timeline.ant-timeline-label
+      .ant-timeline-item-right
+      .ant-timeline-item-label,
     .ant-timeline.ant-timeline-alternate
       .ant-timeline-item-left
       .ant-timeline-item-content,
@@ -94,6 +100,9 @@
       text-align: left;
       margin: 0 0 24px 40px;
     }
+    .ant-timeline.ant-timeline-label
+      .ant-timeline-item-right
+      .ant-timeline-item-content,
     .ant-timeline-item-content {
       margin: 0 0 0 40px;
       top: 0;

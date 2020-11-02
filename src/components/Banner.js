@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
 import { DoubleRightOutlined } from '@ant-design/icons';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import programador from '../images/programador.svg';
 import information from './Informations';
 
