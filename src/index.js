@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';  // <-- mudar aqui
 import AOS from 'aos';
 import 'antd/dist/reset.css';
 import 'aos/dist/aos.css';
@@ -9,11 +9,11 @@ import * as serviceWorker from './serviceWorker';
 
 AOS.init();
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));  // criar root
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // Se você deseja que seu aplicativo funcione offline e carregue mais rápido, você pode alterar
