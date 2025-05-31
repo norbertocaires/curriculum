@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/curriculum/static/css/main.3caa385d.css",
+    "main.js": "/curriculum/static/js/main.6c740ed8.js",
+    "static/media/Norberto.pdf": "/curriculum/static/media/Norberto.bb5837a0f67e62f9e471.pdf",
+    "static/media/programador.svg": "/curriculum/static/media/programador.5922ca9ec604d5d7f2819d69d68cfac0.svg",
+    "static/media/bg-grade.svg": "/curriculum/static/media/bg-grade.2ffa7106bfc80aa614bb.svg",
+    "static/media/ministerio_das_cidades.png": "/curriculum/static/media/ministerio_das_cidades.666e361031753ab1860d.png",
+    "static/media/scytl.png": "/curriculum/static/media/scytl.13c9ea4b52349e87ff94.png",
+    "static/media/snews.png": "/curriculum/static/media/snews.647a6e058a4a45a5fdc5.png",
+    "static/media/bg_triangulos.svg": "/curriculum/static/media/bg_triangulos.6716aba25416283bef11a0140a37c94a.svg",
+    "index.html": "/curriculum/index.html",
+    "static/media/logo-unb.svg": "/curriculum/static/media/logo-unb.4a0ba140e37f6ac50fa6d583d5fbb216.svg",
+    "static/media/bg-graduation.svg": "/curriculum/static/media/bg-graduation.786857ce60ef83266654.svg",
+    "main.3caa385d.css.map": "/curriculum/static/css/main.3caa385d.css.map",
+    "main.6c740ed8.js.map": "/curriculum/static/js/main.6c740ed8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3caa385d.css",
+    "static/js/main.6c740ed8.js"
+  ]
+}
