@@ -1,10 +1,9 @@
-npm install --save-dev gh-pages
 name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - master  # Mude para seu branch padrão, ex: master, se for o caso
+      - main
 
 jobs:
   build-and-deploy:
