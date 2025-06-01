@@ -3,6 +3,7 @@ import ministerioDasCidades from '../images/ministerio_das_cidades.png';
 import scytl from '../images/scytl.png';
 import snews from '../images/snews.png';
 import emgea from '../images/emgea.png';
+import radix from '../images/radix.png';
 import pdf from '../pdfs/Norberto.pdf';
 
 const Information = {
@@ -58,10 +59,17 @@ const Information = {
     },
     {
       job: "Assessor",
-      activities: "",
-      period: "SET/2020 - Atual",
+      activities: "Desenvolvimento de sistemas internos (intranet) e web. Utilizando tecnologias: C#, ASP.NET Web API, MVC, Entity Framework, Microsoft Azure, AngularJS, Microsoft SQL Server database, entre outras;",
+      period: "SET/2020 - MAR/2021",
       company: "EMGEA",
       logo: emgea
+    },
+        {
+      job: "Assessor",
+      activities: "Desenvolvimento de aplicativos web e desktop da indústria de petróleo, gás e mineração; Utilizando tecnologias: .NET, Angular, C#, Azure Functions, Azure DevOps, APIs RESTful, SQL Server, SQLite. Metodologia ágeis: Scrum, Daily Meetings e planejamentos de Sprints.",
+      period: "MAR/2021 - Atual",
+      company: "RADIX",
+      logo: radix
     }
   ],
   skill: [

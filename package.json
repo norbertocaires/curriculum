@@ -1,6 +1,6 @@
 {
   "name": "norberto",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "homepage": "https://norberto.dev.br",
   "dependencies": {
@@ -8,7 +8,7 @@
     "aos": "^3.0.0-beta.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.3",
     "sass": "^1.89.1"
   },
