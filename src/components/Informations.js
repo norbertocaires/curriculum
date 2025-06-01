@@ -17,7 +17,7 @@ const Information = {
   address: "Asa Sul - DF",
   mail: "beto_caires@hotmail.com",
   phone: "61981706062",
-  graduation: "Licenciatura em Computação",
+  graduation: "Computação",
   university: "Universidade de Brasília - UnB",
   logoUniversity: logoUnB,
   graduationYear: 2019,
