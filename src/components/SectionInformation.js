@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Layout } from 'antd';
-import { UserSwitchOutlined, FlagOutlined, CalendarOutlined, HomeOutlined } from '@ant-design/icons';
+import { FlagOutlined, CalendarOutlined, HomeOutlined } from '@ant-design/icons';
 import information from './Informations';
 
 class SectionInformation extends Component {
@@ -10,10 +10,7 @@ class SectionInformation extends Component {
         <div className="container">
           <h2>Informações</h2>
           <div className="row text-center">
-            <div className="col-md-3" data-aos="fade-up" data-aos-duration="3000">
-              <UserSwitchOutlined />
-              <h3>{information.maritalStatus}</h3>
-            </div>
+
             <div className="col-md-3" data-aos="fade-up" data-aos-duration="3000">
               <FlagOutlined />
               <h3>{information.nationality}</h3>
