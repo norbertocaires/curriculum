@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c4206a18.css",
-    "main.js": "/static/js/main.2b41a2e4.js",
+    "main.js": "/static/js/main.6b981b81.js",
     "static/media/Norberto.pdf": "/static/media/Norberto.0d04195b1c49e0806e92.pdf",
     "static/media/programador.svg": "/static/media/programador.5922ca9ec604d5d7f2819d69d68cfac0.svg",
     "static/media/bg-grade.svg": "/static/media/bg-grade.2ffa7106bfc80aa614bb.svg",
@@ -13,10 +13,10 @@
     "static/media/logo-unb.svg": "/static/media/logo-unb.4a0ba140e37f6ac50fa6d583d5fbb216.svg",
     "static/media/bg-graduation.svg": "/static/media/bg-graduation.786857ce60ef83266654.svg",
     "main.c4206a18.css.map": "/static/css/main.c4206a18.css.map",
-    "main.2b41a2e4.js.map": "/static/js/main.2b41a2e4.js.map"
+    "main.6b981b81.js.map": "/static/js/main.6b981b81.js.map"
   },
   "entrypoints": [
     "static/css/main.c4206a18.css",
-    "static/js/main.2b41a2e4.js"
+    "static/js/main.6b981b81.js"
   ]
 }
