@@ -11,15 +11,15 @@ class SectionInformation extends Component {
           <h2>Informações</h2>
           <div className="row text-center">
 
-            <div className="col-md-3" data-aos="fade-up" data-aos-duration="3000">
+            <div className="col-md-4" data-aos="fade-up" data-aos-duration="3000">
               <FlagOutlined />
               <h3>{information.nationality}</h3>
             </div>
-            <div className="col-md-3" data-aos="fade-up" data-aos-duration="3000">
+            <div className="col-md-4" data-aos="fade-up" data-aos-duration="3000">
               <CalendarOutlined />
               <h3>{information.birth}</h3>
             </div>
-            <div className="col-md-3" data-aos="fade-up" data-aos-duration="3000">
+            <div className="col-md-4" data-aos="fade-up" data-aos-duration="3000">
               <HomeOutlined />
               <h3>{information.address}</h3>
             </div>
